@@ -204,7 +204,7 @@ IconButton(
                             style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 240, 236, 241), // ✅ White title
+                              color: Color.fromARGB(255, 240, 236, 241), 
                             ),
                           ),
                           const SizedBox(height: 12),
@@ -212,7 +212,7 @@ IconButton(
                             currentCard.question,
                             style: const TextStyle(
                               fontSize: 22,
-                              color: Color.fromARGB(255, 239, 236, 240), // ✅ White question
+                              color: Color.fromARGB(255, 239, 236, 240),
                             ),
                             textAlign: TextAlign.center,
                           ),
